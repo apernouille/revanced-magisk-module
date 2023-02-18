@@ -11,7 +11,7 @@ Patches: revanced-patches-2.162.0.jar
 
   
 **App Versions:**  
-YouTube: 18.06.35  
+YouTube: 18.03.36  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
