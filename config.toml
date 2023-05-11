@@ -6,15 +6,16 @@ build-mindetach-module = true
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
+build-mode = "module"                                                 # 'both', 'apk' or 'module'
 excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
-included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
+included-patches = "hide-shorts-button disable-shorts-on-startup general-ads custom-video-speed disable-auto-captions return-youtube-dislike sponsorblock"                                                 # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
-exclusive-patches = false                                             # excludes all patches by default and only applies included-patches
+exclusive-patches = true                                              # excludes all patches by default and only applies included-patches
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "ytrv-magisk"
+module-prop-name = "ytrv-magisk-wareyl"
 
 [YouTube-Extended]
+enabled = false
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -25,6 +26,7 @@ included-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [Music-arm64]
+enabled = false
 build-mode = "both"
 app-name = "Music"
 excluded-patches = ""
@@ -33,6 +35,7 @@ module-prop-name = "ytmusicrv-magisk"
 arch = "arm64-v8a"
 
 [Music-arm]
+enabled = false
 build-mode = "both"
 app-name = "Music"
 excluded-patches = ""
@@ -41,16 +44,19 @@ module-prop-name = "ytmusicrv-arm-magisk"
 arch = "arm-v7a"
 
 [Twitter]
+enabled = false
 build-mode = "apk"
 excluded-patches = "hide-views-stats"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Twitch]
+enabled = false
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
 [Reddit]
