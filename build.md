@@ -57,5 +57,4 @@ Patches: revanced/revanced-patches-2.174.0.jar
 
 
 
----
-    
+---  
