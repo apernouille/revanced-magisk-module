@@ -1,4 +1,4 @@
-YouTube: 18.21.32  
+YouTube: 18.19.35  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
