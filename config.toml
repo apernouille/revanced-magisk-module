@@ -22,7 +22,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "module"
 exclusive-patches = true
-included-patches = "settings change-homepage custom-playback-speed disable-shorts-on-startup disable-auto-captions enable-time-stamps-speed hide-channel-watermark hide-shorts-components materialyou return-youtube-dislike sponsorblock"
+included-patches = "settings hide-navigation-buttons change-homepage custom-playback-speed disable-shorts-on-startup disable-auto-captions enable-time-stamps-speed hide-channel-watermark hide-shorts-components materialyou return-youtube-dislike sponsorblock"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
@@ -41,7 +41,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "module"
 exclusive-patches = true
-included-patches = "settings amoled bitrate-default-value certificate-spoof disable-auto-captions enable-black-navigation-bar enable-new-layout"
+included-patches = "settings bitrate-default-value certificate-spoof disable-auto-captions enable-black-navigation-bar enable-new-layout"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
 
