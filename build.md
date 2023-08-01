@@ -1,5 +1,5 @@
 YouTube-Extended: 18.29.38  
-Music-Extended: 6.12.53  
+Music-Extended: 6.13.52  
 Twitch: 15.4.1  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
