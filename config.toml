@@ -13,6 +13,32 @@ included-patches = ""                                                 # space-se
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
+[YouTube-Extended]
+enabled = true
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+exclusive-patches = true
+included-patches = "settings hide-navigation-buttons change-homepage custom-playback-speed disable-shorts-on-startup disable-auto-captions enable-time-stamps-speed hide-channel-watermark hide-shorts-components return-youtube-dislike sponsorblock"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+apkmirror-arch = "arm64-v8a"
+
+[Music-Extended]
+enabled = true
+app-name = "YT Music"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+exclusive-patches = true
+included-patches = "settings bitrate-default-value certificate-spoof disable-auto-captions enable-new-layout"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-arch = "arm64-v8a"
+
 [Music]
 enabled = false
 build-mode = "both"
@@ -28,9 +54,10 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 [Twitch]
 enabled = true
 exclusive-patches = true
-build-mode = "module"
+build-mode = "both"
 included-patches = "auto-claim-channel-points block-audio-ads block-embedded-ads block-video-ads settings show-deleted-messages"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
+apkmirror-arch = "arm64-v8a"
 
 [TikTok]
 enabled = false
@@ -87,28 +114,3 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/joaomgcd/tasker/"
 [Photomath]
 enabled = false
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.microblink.photomath/"
-
-[Music-Extended] # unmaintained
-enabled = true
-app-name = "YT Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "module"
-exclusive-patches = true
-included-patches = "settings bitrate-default-value certificate-spoof disable-auto-captions enable-new-layout"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "arm64-v8a"
-
-[YouTube-Extended] # unmaintained
-enabled = true
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "module"
-exclusive-patches = true
-included-patches = "settings hide-navigation-buttons change-homepage custom-playback-speed disable-shorts-on-startup disable-auto-captions enable-time-stamps-speed hide-channel-watermark hide-shorts-components return-youtube-dislike sponsorblock"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
