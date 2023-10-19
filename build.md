@@ -1,3 +1,4 @@
+Music-Extended: 6.22.51  
 YouTube-Extended: 18.39.41  
 Twitch: 16.1.0  
 
