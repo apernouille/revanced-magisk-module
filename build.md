@@ -1,3 +1,5 @@
+Music-Extended: 6.28.52  
+YouTube-Extended: 18.45.43  
 Twitch: 16.9.1  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
@@ -6,9 +8,11 @@ Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for
 
 Changelog:  
 CLI: j-hc/revanced-cli-4.1.0-all.jar  
-Integrations: ReVanced/revanced-integrations-0.124.0.apk  
-Patches: ReVanced/revanced-patches-2.201.0.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v2.201.0)  
+Integrations: inotia00/revanced-integrations-0.124.1.apk  
+Patches: inotia00/revanced-patches-2.201.1.jar  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.201.1)
 
-Skipped:  
-Patches: inotia00/revanced-patches-2.199.1.jar      
+CLI: j-hc/revanced-cli-4.1.0-all.jar  
+Integrations: ReVanced/revanced-integrations-0.124.1.apk  
+Patches: ReVanced/revanced-patches-2.201.1.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v2.201.1)  
