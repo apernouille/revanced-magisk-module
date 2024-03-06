@@ -65,6 +65,7 @@ build-mode = "both"
 exclusive-patches = true
 included-patches = "'Settings' 'Bitrate default value' 'Certificate spoof' 'Disable auto captions' 'Enable new player background'"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+version = "latest"
 arch = "arm64-v8a"
 
 [YouTube-Extended]
@@ -78,4 +79,3 @@ build-mode = "both"
 exclusive-patches = true
 included-patches = "'Settings' 'Hide navigation buttons' 'Change homepage' 'Custom playback speed' 'Disable shorts on startup' 'Disable auto captions' 'Append time stamps information' 'Hide channel watermark' 'Hide shorts components' 'Return YouTube Dislike' 'SponsorBlock' 'Enable new splash animation' 'Enable new comment popup panels' 'Enable new thumbnail preview'"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-arch = "arm64-v8a"
